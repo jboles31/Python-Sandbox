@@ -51,3 +51,16 @@ print(key_example)
 print('GET')
 print(jordan.get('lastname'))
 print(jordan.get('favorite_show'))
+
+# COMPREHENSIONS
+
+print('COMPREHENSION')
+example2 = {num: num**2 for num in [1,2,3,4,5]}
+print(example2)
+
+num_list = [1,2,3,4]
+example3 = {num: ('even' if num % 2 == 0 else 'odd') for num in num_list}
+print(example3)
+
+# answer = {num: (chr(num)) for num in range(65,91)}
+# creates a dictionary with ASCII character codes and letters
