@@ -7,7 +7,7 @@ tuple_example = (1,2,3)
 
 # why use tuple
 # faster and lighter weight than a list
-# tuples are valid keys in a dictionary, unlike a list
+# tuples are valid keys in a dictionary, unlike a list, a key of a coordinate location is a good example
 
 # EXAMPLE of a good tuple
 # would be the months of the year
