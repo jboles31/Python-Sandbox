@@ -64,3 +64,9 @@ set11 = {3,4,5,6}
 
 # set10 || set11 = {1,2,3,4,5,6}
 # set10 && set11 = {3,4}
+
+
+# SET COMPREHENSIONS
+
+set_comp = {x**2 for x in range(10)}
+print(set_comp) 
