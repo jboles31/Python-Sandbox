@@ -3,7 +3,10 @@
 # immutable
 # cannot update/remove from it
 
+single_element_tuple = (1,)
 tuple_example = (1,2,3)
+values = (1,2,3)
+static_values = tuple(values)
 
 # why use tuple
 # faster and lighter weight than a list
