@@ -55,7 +55,7 @@ print(jordan.get('favorite_show'))
 # COMPREHENSIONS
 
 print('COMPREHENSION')
-example2 = {num: num**2 for num in [1,2,3,4,5]}
+example2 = {num: num**2 for num in [1,2,3,4,5,5,5,5,5]}
 print(example2)
 
 num_list = [1,2,3,4]
