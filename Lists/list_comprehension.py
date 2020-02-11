@@ -31,3 +31,22 @@ print(board)
 
 answer = [[num for num in range(0,10)] for val in range(0,10)]
 print(answer)
+
+# SLICES
+
+#  list[ start(inclusive), stop(non-inclusive), step]
+
+first_list = [1,2,3,4,5,6]
+first_list[1::2] # [2,4,6]
+first_list[::2] # [1,3,5]
+
+#  Negative steps!
+
+first_list[1::-1] # [2,1]
+first_list[:1:-1] # [6,5,4,3]
+first_list[2::-1] # [3,2,1]
+
+# REVERSE
+
+first_list[::-1] # [6,5,4,3,2,1]
+
