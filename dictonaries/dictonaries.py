@@ -64,3 +64,16 @@ print(example3)
 
 # answer = {num: (chr(num)) for num in range(65,91)}
 # creates a dictionary with ASCII character codes and letters
+
+
+
+# Dictionary Unpacking
+
+# Use Keyword Args to unpack a dictionary
+
+def display_names(first, second):
+  print(f'{first} says hello to {second}')
+
+names = {'first': 'Jordan', 'second': 'Evan'}
+
+display_names(**names)
