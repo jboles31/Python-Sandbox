@@ -45,3 +45,32 @@ print(combine_words('child', suffix="ish"))
 # 2. - *args
 # 3. - default parameters
 # 4. - **kwargs
+
+# Tuple Unpacking
+
+# Star Args will create a tuple of all the args given. We must unpack the tuple, made from the list provided as an arg
+# When you have a function that accepts star args, but is passed a list not multiple args
+
+def sum_all_values(*args):
+  total = 0
+  for num in args:
+    total += num
+  print(total)
+
+nums = [1,2,3,4]
+
+# pass list with a star in front
+sum_all_values(*nums)
+
+
+
+# Dictionary Unpacking
+
+# Use Keyword Args to unpack a dictionary
+
+def display_names(first, second):
+  print(f'{first} says hello to {second}')
+
+names = {'first': 'Jordan', 'second': 'Evan'}
+
+display_names(**names)
