@@ -15,3 +15,19 @@ static_values = tuple(values)
 # EXAMPLE of a good tuple
 # would be the months of the year
 # you don't need to ever change the months
+
+# Tuple Unpacking
+
+# Star Args will create a tuple of all the args given. We must unpack the tuple, made from the list provided as an arg
+# When you have a function that accepts star args, but is passed a list not multiple args
+
+def sum_all_values(*args):
+  total = 0
+  for num in args:
+    total += num
+  print(total)
+
+nums = [1,2,3,4]
+
+# pass list with a star in front
+sum_all_values(*nums)
